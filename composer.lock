@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "6dc558b5d16bdda744e7a93440350338",
+    "content-hash": "f1ddf191ddb08fe36e07240048dcd540",
     "packages": [
         {
             "name": "alchemy/zippy",
@@ -133,8 +133,7 @@
             "dist": {
                 "type": "zip",
                 "url": "https://api.github.com/repos/dinbror/blazy/zipball/5becad405976695e6016ba301be4f22ba61d5b95",
-                "reference": "5becad405976695e6016ba301be4f22ba61d5b95",
-                "shasum": null
+                "reference": "5becad405976695e6016ba301be4f22ba61d5b95"
             },
             "type": "bower-asset",
             "license": [
@@ -152,8 +151,7 @@
             "dist": {
                 "type": "zip",
                 "url": "https://api.github.com/repos/enyo/dropzone/zipball/08b9e0a763b54a685404dea523a9c54242fbe1b9",
-                "reference": "08b9e0a763b54a685404dea523a9c54242fbe1b9",
-                "shasum": null
+                "reference": "08b9e0a763b54a685404dea523a9c54242fbe1b9"
             },
             "type": "bower-asset"
         },
@@ -168,8 +166,7 @@
             "dist": {
                 "type": "zip",
                 "url": "https://api.github.com/repos/exif-js/exif-js/zipball/a10f3d53f3f72defef4cad5a54a90ee308901fe6",
-                "reference": "a10f3d53f3f72defef4cad5a54a90ee308901fe6",
-                "shasum": null
+                "reference": "a10f3d53f3f72defef4cad5a54a90ee308901fe6"
             },
             "type": "bower-asset",
             "license": [
@@ -187,8 +184,7 @@
             "dist": {
                 "type": "zip",
                 "url": "https://api.github.com/repos/ivaynberg/select2/zipball/16f6b10628f9000918708cef9b3da615119cf6d6",
-                "reference": "16f6b10628f9000918708cef9b3da615119cf6d6",
-                "shasum": null
+                "reference": "16f6b10628f9000918708cef9b3da615119cf6d6"
             },
             "type": "bower-asset",
             "license": [
@@ -206,8 +202,7 @@
             "dist": {
                 "type": "zip",
                 "url": "https://api.github.com/repos/heiseonline/shariff/zipball/78dd2a7685a7fc3871c3588e529296d26368b8c6",
-                "reference": "78dd2a7685a7fc3871c3588e529296d26368b8c6",
-                "shasum": null
+                "reference": "78dd2a7685a7fc3871c3588e529296d26368b8c6"
             },
             "type": "bower-asset",
             "license": [
@@ -225,8 +220,7 @@
             "dist": {
                 "type": "zip",
                 "url": "https://api.github.com/repos/kenwheeler/slick/zipball/0f40c9d6a02a5c08b5f4dd80fdada3a854a59bee",
-                "reference": "0f40c9d6a02a5c08b5f4dd80fdada3a854a59bee",
-                "shasum": null
+                "reference": "0f40c9d6a02a5c08b5f4dd80fdada3a854a59bee"
             },
             "require": {
                 "bower-asset/jquery": ">=1.7"
@@ -2830,7 +2824,7 @@
                 },
                 "drupal": {
                     "version": "8.x-3.1",
-                    "datestamp": "1549603381",
+                    "datestamp": "1550728386",
                     "security-coverage": {
                         "status": "covered",
                         "message": "Covered by Drupal's security advisory policy"
@@ -4486,7 +4480,7 @@
                 },
                 "drupal": {
                     "version": "8.x-1.7",
-                    "datestamp": "1535726393",
+                    "datestamp": "1550692511",
                     "security-coverage": {
                         "status": "covered",
                         "message": "Covered by Drupal's security advisory policy"
@@ -4632,7 +4626,7 @@
                 },
                 "drupal": {
                     "version": "8.x-1.5",
-                    "datestamp": "1541009695",
+                    "datestamp": "1550692525",
                     "security-coverage": {
                         "status": "covered",
                         "message": "Covered by Drupal's security advisory policy"
@@ -5492,8 +5486,8 @@
                     "version": "8.x-2.4",
                     "datestamp": "1549462080",
                     "security-coverage": {
-                        "status": "not-covered",
-                        "message": "Project has not opted into security advisory coverage!"
+                        "status": "covered",
+                        "message": "Covered by Drupal's security advisory policy"
                     }
                 }
             },
