@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "3810c15ee4022b604350fbe081d59c29",
+    "content-hash": "6616c01abaf83a315eeefe0c6e24ba35",
     "packages": [
         {
             "name": "alchemy/zippy",
@@ -1343,6 +1343,62 @@
             ],
             "description": "Share Pattern Lab's custom Twig extensions with Drupal 8.",
             "time": "2017-08-08T19:57:42+00:00"
+        },
+        {
+            "name": "drupal/adminimal_theme",
+            "version": "1.4.0",
+            "source": {
+                "type": "git",
+                "url": "https://git.drupal.org/project/adminimal_theme",
+                "reference": "8.x-1.4"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://ftp.drupal.org/files/projects/adminimal_theme-8.x-1.4.zip",
+                "reference": "8.x-1.4",
+                "shasum": "af9cbce473d0bd9590889992200ed175cb7e1159"
+            },
+            "require": {
+                "drupal/core": "~8.0"
+            },
+            "type": "drupal-theme",
+            "extra": {
+                "branch-alias": {
+                    "dev-1.x": "1.x-dev"
+                },
+                "drupal": {
+                    "version": "8.x-1.4",
+                    "datestamp": "1547996580",
+                    "security-coverage": {
+                        "status": "covered",
+                        "message": "Covered by Drupal's security advisory policy"
+                    }
+                }
+            },
+            "notification-url": "https://packages.drupal.org/8/downloads",
+            "license": [
+                "GPL-2.0+"
+            ],
+            "authors": [
+                {
+                    "name": "ANDiTKO",
+                    "homepage": "https://www.drupal.org/user/1428124"
+                },
+                {
+                    "name": "andrey.troeglazov",
+                    "homepage": "https://www.drupal.org/user/3145389"
+                },
+                {
+                    "name": "realityloop",
+                    "homepage": "https://www.drupal.org/user/139189"
+                }
+            ],
+            "description": "Drupal administration theme with modern minimalist design.",
+            "homepage": "https://www.drupal.org/project/adminimal_theme",
+            "support": {
+                "source": "http://cgit.drupalcode.org/adminimal_theme",
+                "issues": "https://www.drupal.org/project/issues/adminimal_theme"
+            }
         },
         {
             "name": "drupal/components",
