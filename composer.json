@@ -29,6 +29,7 @@
         "drupal-composer/drupal-scaffold": "^2.5",
         "drupal/console": "^1.0.2",
         "drupal/core": "8.*",
+        "drupal/emulsify": "^3.1",
         "drupal/migrate_plus": "^4.1",
         "drupal/paragraphs": "^1.6",
         "drupal/pathauto": "^1.3",
