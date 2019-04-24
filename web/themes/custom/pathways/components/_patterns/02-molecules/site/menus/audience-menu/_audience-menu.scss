@@ -1,0 +1,15 @@
+.nav--audience{
+    @include fontSize(4);
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+.audience-menu{
+    @include list-reset;
+    @include baseFlex;
+    justify-content: flex-end;
+}
+.audience-menu__link{
+    color: $white;
+    margin-right: 1rem;
+}

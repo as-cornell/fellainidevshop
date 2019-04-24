@@ -1,0 +1,15 @@
+@mixin img {
+  display: block;
+  height: auto;
+  max-width: 100%;
+}
+
+img,
+picture {
+  @include img;
+}
+
+
+.logo{
+  justify-self: center;
+}

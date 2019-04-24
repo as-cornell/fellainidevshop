@@ -1,0 +1,25 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - as_page_components.page_component_entity_type.list_block
+    - field.field.page_component_entity.list_block.field_list_reference
+  module:
+    - viewsreference
+id: page_component_entity.list_block.default
+targetEntityType: page_component_entity
+bundle: list_block
+mode: default
+content:
+  field_list_reference:
+    weight: 0
+    label: hidden
+    settings:
+      plugin_types:
+        - block
+    third_party_settings: {  }
+    type: viewsreference_formatter
+    region: content
+hidden:
+  name: true
+  user_id: true
