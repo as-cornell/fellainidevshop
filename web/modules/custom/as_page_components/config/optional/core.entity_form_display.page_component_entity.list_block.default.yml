@@ -1,0 +1,32 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - as_page_components.page_component_entity_type.list_block
+    - field.field.page_component_entity.list_block.field_list_reference
+  module:
+    - viewsreference
+id: page_component_entity.list_block.default
+targetEntityType: page_component_entity
+bundle: list_block
+mode: default
+content:
+  field_list_reference:
+    weight: 1
+    settings:
+      match_operator: CONTAINS
+      size: '60'
+      placeholder: ''
+    third_party_settings: {  }
+    type: viewsreference_autocomplete
+    region: content
+  name:
+    type: string_textfield
+    weight: 0
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+hidden:
+  user_id: true

@@ -1,0 +1,17 @@
+/// Link
+@mixin link($color: $red,$text-decoration: underline) {
+  color: $color;
+  text-decoration: $text-decoration;
+
+  &:hover {
+    text-decoration: none;
+  }
+}
+
+.link {
+  @include link;
+}
+
+a{
+  @include link;
+}

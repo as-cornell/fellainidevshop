@@ -1,0 +1,27 @@
+
+
+html{
+  font-size: $base-font-size;
+}
+
+body {
+  @include baseFont();
+}
+
+p{
+  @include baseMargin($margin-direction: margin-bottom, $margin-width: 1em);
+}
+
+
+.blockquote {
+  font-style: italic;
+  border-left: solid 3px $gray-lt;
+  margin-left: 1em;
+  padding-left: 1em;
+}
+
+.hr {
+  border-style: solid;
+  border-width: 1px 0 0;
+  color: currentColor;
+}

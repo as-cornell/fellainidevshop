@@ -1,0 +1,46 @@
+//  Empty
+#skip{
+  position: absolute;
+  top: 50px;
+  z-index: 3;
+  a{
+    z-index: 0;
+    position: absolute;
+    left: -5000px;
+    width: 250px;
+    font-weight: 600;
+    &:focus{
+      left: 200px;
+    }
+  }
+}
+
+header{
+    background-image: linear-gradient($black, $black 58px, $white 58px, $white);
+    margin-bottom: (15 * $quark);
+    @include baseGrid();
+    grid-template-columns: 1fr repeat(14,minmax(50px,80px)) 1fr;
+    grid-template-areas:
+    ". search search search search search audNav audNav audNav audNav audNav audNav audNav audNav audNav ."
+    ". logo logo logo logo logo logo logo logo logo logo logo logo logo logo ."
+    "mainNav mainNav mainNav mainNav mainNav mainNav mainNav mainNav mainNav mainNav mainNav mainNav mainNav mainNav mainNav mainNav";
+    #skip{
+
+    }
+    .nav--audience{
+        grid-area: audNav;
+    }
+    form{
+        grid-area: search;
+    }
+    .siteLogo{
+        grid-area: logo;
+        display:flex;
+        justify-content: center;
+        padding: (7 * $quark) 0;
+    }
+    .main-nav{
+        grid-area: mainNav;
+    }
+
+}

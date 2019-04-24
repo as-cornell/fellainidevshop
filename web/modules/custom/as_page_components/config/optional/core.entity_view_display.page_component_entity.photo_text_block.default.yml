@@ -1,0 +1,30 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - as_page_components.page_component_entity_type.photo_text_block
+    - field.field.page_component_entity.photo_text_block.field_photo_text_entity
+id: page_component_entity.photo_text_block.default
+targetEntityType: page_component_entity
+bundle: photo_text_block
+mode: default
+content:
+  field_photo_text_entity:
+    weight: 2
+    label: hidden
+    settings:
+      link: true
+      view_mode: default
+    third_party_settings: {  }
+    type: entity_reference_entity_view
+    region: content
+  name:
+    label: hidden
+    type: string
+    weight: 0
+    region: content
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+hidden:
+  user_id: true
