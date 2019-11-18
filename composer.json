@@ -36,10 +36,9 @@
         "drupal/migrate_plus": "^4.1",
         "drupal/paragraphs": "^1.6",
         "drupal/pathauto": "^1.3",
-        "drush/drush": "^9.7",
+        "drush/drush": "^8.0.0",
         "fourkitchens/emulsify": "^3.1",
-        "mouf/nodejs-installer": "^1.0.12",
-        "phpunit/phpunit": "^8.2",
+        "mouf/nodejs-installer": "~1.0",
         "vlucas/phpdotenv": "^2.4",
         "webflo/drupal-finder": "^1.0.0",
         "webmozart/path-util": "^2.3"
@@ -56,7 +55,7 @@
         "bin-dir": "bin",
         "sort-packages": true,
         "platform": {
-            "php": "7.2"
+            "php": "5.5.9"
         }
     },
     "autoload": {
@@ -79,8 +78,7 @@
             "@composer install --working-dir=tests --ansi",
             "drush --version",
             "node -v",
-            "npm -v",
-            "npm install"
+            "npm -v"
         ],
         "post-update-cmd": [
             "@composer drupal:scaffold",
@@ -109,13 +107,6 @@
         },
         "preserve-paths": [
             "web/sites"
-        ],
-        "mouf": {
-            "nodejs": {
-                "version": "~0.12",
-                "targetDir": "vendor/nodejs/nodejs",
-                "forceLocal": false
-            }
-        }
+        ]
     }
 }
