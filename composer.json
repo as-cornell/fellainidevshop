@@ -52,7 +52,6 @@
     "minimum-stability": "dev",
     "prefer-stable": true,
     "config": {
-        "bin-dir": "bin",
         "sort-packages": true,
         "platform": {
             "php": "5.5.9"
@@ -78,7 +77,8 @@
             "@composer install --working-dir=tests --ansi",
             "drush --version",
             "node -v",
-            "npm -v"
+            "npm -v",
+            "npm install"
         ],
         "post-update-cmd": [
             "@composer drupal:scaffold",
