@@ -10,7 +10,7 @@ deploy: |
   cd web/themes/custom/ppd
   npm install
   cd ../../..
-  drush -y cache-rebuild
-  drush -y updatedb
-  drush -y config-import
+  drush  {{alias}}  cache-rebuild -y
+  drush  {{alias}}  updatedb -y
+  drush  {{alias}}  config-import -y
   env
