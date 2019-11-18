@@ -75,7 +75,7 @@
             "@composer drupal:scaffold",
             "DrupalProject\\composer\\ScriptHandler::createRequiredFiles",
             "echo 'Running composer install in tests folder...'",
-            "@composer install --working-dir=tests --ansi"
+            "@composer install --working-dir=tests --ansi",
             "drush --version",
             "node -v",
             "npm -v"
