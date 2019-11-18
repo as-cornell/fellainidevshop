@@ -78,7 +78,10 @@
             "@composer install --working-dir=tests --ansi",
             "drush --version",
             "node -v",
-            "npm -v"
+            "npm -v",
+            "cd web/themes/custom/ppd",
+            "npm install"
+
         ],
         "post-update-cmd": [
             "@composer drupal:scaffold",
