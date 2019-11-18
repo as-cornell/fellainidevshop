@@ -28,6 +28,7 @@
         "cweagans/composer-patches": "^1.6",
         "drupal-composer/drupal-scaffold": "^2.5",
         "drupal/adminimal_theme": "^1.4",
+        "drupal/components": "^1.1",
         "drupal/console": "^1.0.2",
         "drupal/core": "8.*",
         "drupal/emulsify": "^3.1",
