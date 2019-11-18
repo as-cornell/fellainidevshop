@@ -53,3 +53,8 @@
 /web/sites/*/local.settings.php
 /web/sites/*/private
 /web/sites/*/files
+
+# Ignore SQL dump files and .DS_Store
+*--dump.sql
+*.sql
+.DS_Store

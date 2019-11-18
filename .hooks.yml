@@ -12,5 +12,4 @@ deploy: |
   npm install
   drush  {{alias}}  cache-rebuild -y
   drush  {{alias}}  updatedb -y
-  drush  {{alias}}  config-import -y
   env
