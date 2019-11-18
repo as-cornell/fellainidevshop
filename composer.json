@@ -56,7 +56,7 @@
         "platform": {
             "php": "5.5.9"
         }
-        "bin-dir": "bin"
+        "bin-dir": "bin",
     },
     "autoload": {
         "classmap": [
