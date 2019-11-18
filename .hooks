@@ -1,15 +1,15 @@
 # https://docs.opendevshop.com/using-devshop/deployment-hooks
 # Fires after an environment is installed.
 install: |
+  cd web/themes/custom/ppd
+  npm install
 
 
 # Fires after code is deployed. A "deployment" happens when you push to your
 # git repository or select a new branch or tag for your environment.
 deploy: |
   echo "Running hooks in the $DEVSHOP_ENVIRONMENT environment for the $DEVSHOP_PROJECT..."
-  cd web/themes/custom/ppd
-  npm install
-  cd ../../..
+  cd web
   drush  {{alias}}  cache-rebuild -y
   drush  {{alias}}  updatedb -y
   drush  {{alias}}  config-import -y
