@@ -78,7 +78,7 @@
             "drush --version",
             "node -v",
             "npm -v",
-            "npm install"
+            "npm install web/themes/custom/ppd"
         ],
         "post-update-cmd": [
             "@composer drupal:scaffold",
